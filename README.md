@@ -6,8 +6,8 @@
 注意：arr2str可接收两个参数。第一个参数为数组，第二个参数为分隔符号。若不传，会自动默认为"$cCtV@$".若不需要分隔符，可以传''过去即可。<br>
 例：<br>
 var a = [{name:'123',lvl:1},{name:'123',lvl:1},{name:'123',lvl:1}];<br>
-console.log(arr2str(a,''));<br>
+console.log(arr2str(a,'x1w'));<br>
 <br>
-输出：{'name':'123','lvl':'1'}{'name':'123','lvl':'1'}{'name':'123','lvl':'1'}<br>
+输出：{'name':'123','lvl':'1'}x1w{'name':'123','lvl':'1'}x1w{'name':'123','lvl':'1'}
 
 
